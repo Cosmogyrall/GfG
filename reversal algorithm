@@ -1,0 +1,12 @@
+#reversal algorithm
+def rotate(arr,d,n):
+    A = arr[:d]
+    B = arr[d:]
+    A.sort(reverse=True)
+    print(A)
+    B.sort(reverse=True)
+    print(B)
+    AB = A+B
+    AB.reverse()
+    print(AB)
+ 
